@@ -23,6 +23,7 @@
   "postAttachCommand": {
     "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
+  "postCreateCommand": "pip install --user -r requirements.txt",
   "portsAttributes": {
     "8501": {
       "label": "Application",
